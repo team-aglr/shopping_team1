@@ -92,6 +92,7 @@ const router = express.Router();
 const Product = require("../models/product");
 const CartItem = require("../models/cartItem");
 
+
 router.get("/products", (req, res, next) => {
   Product.find({})
     .then((products) => res.json(products))

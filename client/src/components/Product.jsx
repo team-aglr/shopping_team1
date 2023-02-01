@@ -1,6 +1,6 @@
 import React from "react";
 
-function Product({ title, quantity, price }) {
+function Product({ title, quantity, price, _id, onDelete }) {
   return (
     <div className="product">
       <div className="product-details">
@@ -11,7 +11,7 @@ function Product({ title, quantity, price }) {
           <a className={`button add-to-cart`}>Add to Cart</a>
           <a className="button edit">Edit</a>
         </div>
-        <a className="delete-button">
+        <a className="delete-button" onClick={() => onDelete(_id)} >
           <span>X</span>
         </a>
       </div>

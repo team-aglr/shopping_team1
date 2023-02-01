@@ -1,12 +1,12 @@
 import data from "../mockData/data";
 import Product from "./Product";
 
-function ProductList() {
+function ProductList({products, onDelete}) {
   return (
     <div className="product-listing">
       <h2>Products</h2>
-      {data.map((product) => (
-        <Product {...product} key={product.id} />
+      {products.map((product) => (
+        <Product {...product} key={product._id} onDelete={onDelete} />
       ))}
     </div>
   );
