@@ -143,8 +143,8 @@
     }
   }
 })({"1xC6H":[function(require,module,exports) {
-var Refresh = require("458100fa55221ec2");
-var ErrorOverlay = require("dca787112f078e30");
+var Refresh = require("5cf0f1aea07f3d6f");
+var ErrorOverlay = require("e980c82faf807d11");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -163,11 +163,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"458100fa55221ec2":"786KC","dca787112f078e30":"1dldy"}],"786KC":[function(require,module,exports) {
+},{"5cf0f1aea07f3d6f":"786KC","e980c82faf807d11":"1dldy"}],"786KC":[function(require,module,exports) {
 "use strict";
-module.exports = require("31e2d42752302f1c");
+module.exports = require("a0363ad620dcc37");
 
-},{"31e2d42752302f1c":"hdge7"}],"hdge7":[function(require,module,exports) {
+},{"a0363ad620dcc37":"hdge7"}],"hdge7":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -628,7 +628,7 @@ module.exports = require("31e2d42752302f1c");
 })();
 
 },{}],"1dldy":[function(require,module,exports) {
-var process = require("a95bbcb90da9a4ea");
+var process = require("a204ec87712dafff");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2358,7 +2358,7 @@ var process = require("a95bbcb90da9a4ea");
     ]);
 });
 
-},{"a95bbcb90da9a4ea":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"a204ec87712dafff":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -3024,9 +3024,9 @@ const rootElement = document.getElementById("root");
 }
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./components/App":"ey9du","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
-module.exports = require("d5570ae6b2ec3517");
+module.exports = require("1ebe784edad00a2a");
 
-},{"d5570ae6b2ec3517":"48uCM"}],"48uCM":[function(require,module,exports) {
+},{"1ebe784edad00a2a":"48uCM"}],"48uCM":[function(require,module,exports) {
 /**
  * @license React
  * react-jsx-dev-runtime.development.js
@@ -3038,7 +3038,7 @@ module.exports = require("d5570ae6b2ec3517");
  */ "use strict";
 (function() {
     "use strict";
-    var React = require("e581c414ba89aee1");
+    var React = require("690ed81e4a33d9ae");
     // ATTENTION
     // When adding new symbols to this file,
     // Please consider also adding to 'react-devtools-shared/src/backend/ReactSymbols'
@@ -3857,11 +3857,11 @@ module.exports = require("d5570ae6b2ec3517");
     exports.jsxDEV = jsxDEV$1;
 })();
 
-},{"e581c414ba89aee1":"21dqq"}],"21dqq":[function(require,module,exports) {
+},{"690ed81e4a33d9ae":"21dqq"}],"21dqq":[function(require,module,exports) {
 "use strict";
-module.exports = require("bf90ac4146bc25db");
+module.exports = require("178234aec7492c82");
 
-},{"bf90ac4146bc25db":"6YvXz"}],"6YvXz":[function(require,module,exports) {
+},{"178234aec7492c82":"6YvXz"}],"6YvXz":[function(require,module,exports) {
 /**
  * @license React
  * react.development.js
@@ -5729,7 +5729,7 @@ module.exports = require("bf90ac4146bc25db");
 
 },{}],"lOjBx":[function(require,module,exports) {
 "use strict";
-var m = require("ad586df3d14d41ae");
+var m = require("880e6a7af4f28900");
 var i = m.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 exports.createRoot = function(c, o) {
     i.usingClientEntryPoint = true;
@@ -5748,7 +5748,7 @@ exports.hydrateRoot = function(c, h, o) {
     }
 };
 
-},{"ad586df3d14d41ae":"j6uA9"}],"j6uA9":[function(require,module,exports) {
+},{"880e6a7af4f28900":"j6uA9"}],"j6uA9":[function(require,module,exports) {
 "use strict";
 function checkDCE() {
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -5762,9 +5762,9 @@ function checkDCE() {
     // a false positive.
     throw new Error("^_^");
 }
-module.exports = require("2c83bf6fcf5cbc41");
+module.exports = require("e39be67126db3b6c");
 
-},{"2c83bf6fcf5cbc41":"3iA9v"}],"3iA9v":[function(require,module,exports) {
+},{"e39be67126db3b6c":"3iA9v"}],"3iA9v":[function(require,module,exports) {
 /**
  * @license React
  * react-dom.development.js
@@ -5777,8 +5777,8 @@ module.exports = require("2c83bf6fcf5cbc41");
 (function() {
     "use strict";
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
-    var React = require("233e2d2f42523d49");
-    var Scheduler = require("c561348af29014b7");
+    var React = require("a63ae54f76de9416");
+    var Scheduler = require("a09834c01428c5b");
     var ReactSharedInternals = React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
     var suppressWarning = false;
     function setSuppressWarning(newSuppressWarning) {
@@ -26749,11 +26749,11 @@ module.exports = require("2c83bf6fcf5cbc41");
     /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */ if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 })();
 
-},{"233e2d2f42523d49":"21dqq","c561348af29014b7":"juvHo"}],"juvHo":[function(require,module,exports) {
+},{"a63ae54f76de9416":"21dqq","a09834c01428c5b":"juvHo"}],"juvHo":[function(require,module,exports) {
 "use strict";
-module.exports = require("684d33dd5c7187a");
+module.exports = require("ed587a86e27bf32a");
 
-},{"684d33dd5c7187a":"RqdIf"}],"RqdIf":[function(require,module,exports) {
+},{"ed587a86e27bf32a":"RqdIf"}],"RqdIf":[function(require,module,exports) {
 /**
  * @license React
  * scheduler.development.js
@@ -27217,34 +27217,29 @@ try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _axios = require("axios");
-var _axiosDefault = parcelHelpers.interopDefault(_axios);
-var _header = require("./Header");
-var _headerDefault = parcelHelpers.interopDefault(_header);
+var _cart = require("./Cart");
+var _cartDefault = parcelHelpers.interopDefault(_cart);
 var _productList = require("./ProductList");
 var _productListDefault = parcelHelpers.interopDefault(_productList);
 var _form = require("./Form");
 var _formDefault = parcelHelpers.interopDefault(_form);
 var _react = require("react");
+var _products = require("../services/products");
 var _s = $RefreshSig$();
 const App = ()=>{
     _s();
     const [products, setProducts] = (0, _react.useState)([]);
+    const [cart, setCart] = (0, _react.useState)([]);
     (0, _react.useEffect)(()=>{
-        const getProducts = async ()=>{
-            const response = await (0, _axiosDefault.default).get("/api/products");
-            const data = response.data;
-            setProducts(data);
+        const populatePage = async ()=>{
+            const response = await (0, _products.getProducts)();
+            setProducts(response);
         };
+        populatePage();
     }, []);
     const handleMoreProducts = async (newProduct, callback)=>{
         try {
-            console.log({
-                ...newProduct
-            });
-            const response = await (0, _axiosDefault.default).post("/api/products", {
-                ...newProduct
-            });
+            const response = await (0, _products.addProduct)(newProduct);
             setProducts(products.concat(response.data));
             callback();
         } catch (error) {
@@ -27252,50 +27247,109 @@ const App = ()=>{
         }
     };
     const handleDeleteProduct = async (id)=>{
-        (0, _axiosDefault.default).delete(`/api/products/${id}`);
-        setProducts(products.filter((product)=>{
-            return product._id !== id;
-        }));
+        try {
+            await (0, _products.deleteProduct)(id);
+            setProducts(products.filter((product)=>{
+                return product._id !== id;
+            }));
+        } catch (error) {
+            console.log(error);
+        }
+    };
+    const handleEditProduct = async (editedProduct, callback)=>{
+        try {
+            // Edit product in the database
+            const response = await (0, _products.editProduct)(editedProduct);
+            // Edit product locally
+            setProducts(products.map((product)=>{
+                if (product._id === editedProduct._id) return response.data;
+                return product;
+            }));
+            // Edit cart locally
+            const updatedCart = cart.map((item)=>{
+                if (item._id === editedProduct._id) return {
+                    ...item,
+                    price: editedProduct.price
+                };
+                return item;
+            });
+            setCart(updatedCart);
+            callback();
+        } catch (error) {
+            console.log(error);
+        }
+    };
+    const handleUpdateCart = async (product)=>{
+        let itemExistsInCart = false;
+        const newCarts = cart.map((item)=>{
+            if (item._id === product._id) {
+                itemExistsInCart = true;
+                return {
+                    ...item,
+                    quantity: item.quantity + 1
+                };
+            }
+            return item;
+        });
+        if (!itemExistsInCart) newCarts.push({
+            ...product,
+            quantity: 1
+        });
+        await handleEditProduct({
+            ...product,
+            quantity: product.quantity - 1
+        });
+        setCart(newCarts);
     };
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         id: "app",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _headerDefault.default), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cartDefault.default), {
+                    cart: cart
+                }, void 0, false, {
+                    fileName: "src/components/App.js",
+                    lineNumber: 93,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
                 fileName: "src/components/App.js",
-                lineNumber: 39,
+                lineNumber: 92,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("main", {
                 children: [
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productListDefault.default), {
                         products: products,
-                        onDelete: handleDeleteProduct
+                        onDelete: handleDeleteProduct,
+                        onEdit: handleEditProduct,
+                        onUpdateCart: handleUpdateCart
                     }, void 0, false, {
                         fileName: "src/components/App.js",
-                        lineNumber: 41,
+                        lineNumber: 96,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _formDefault.default), {
                         onSubmit: handleMoreProducts
                     }, void 0, false, {
                         fileName: "src/components/App.js",
-                        lineNumber: 42,
+                        lineNumber: 102,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/App.js",
-                lineNumber: 40,
+                lineNumber: 95,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/App.js",
-        lineNumber: 38,
+        lineNumber: 91,
         columnNumber: 5
     }, undefined);
 };
-_s(App, "f86L6rLANGURv6GE6gupp7+oOp4=");
+_s(App, "WvH4Ke8djrZzUkqp4IE2H8iDgDI=");
 _c = App;
 //   return e("div", { className: "app" }, [
 //     e("header", null, [
@@ -27346,7 +27400,851 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","axios":"jo6P5","./Header":"knC38","./ProductList":"6IsM9","./Form":"ep7Rn","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jo6P5":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./ProductList":"6IsM9","./Form":"ep7Rn","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../services/products":"hGzN2","./Cart":"8DpxB"}],"6IsM9":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$7fce = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$7fce.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _data = require("../mockData/data");
+var _dataDefault = parcelHelpers.interopDefault(_data);
+var _editableProduct = require("./EditableProduct");
+var _editableProductDefault = parcelHelpers.interopDefault(_editableProduct);
+function ProductList({ products , onDelete , onEdit , onUpdateCart  }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "product-listing",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                children: "Products"
+            }, void 0, false, {
+                fileName: "src/components/ProductList.jsx",
+                lineNumber: 7,
+                columnNumber: 7
+            }, this),
+            products.map((product)=>{
+                let disabled = false;
+                if (product.quantity <= 0) disabled = true;
+                return /*#__PURE__*/ (0, _react.createElement)((0, _editableProductDefault.default), {
+                    ...product,
+                    key: product._id,
+                    onDelete: onDelete,
+                    onEdit: onEdit,
+                    disabled: disabled,
+                    onUpdateCart: onUpdateCart,
+                    __source: {
+                        fileName: "src/components/ProductList.jsx",
+                        lineNumber: 14,
+                        columnNumber: 11
+                    },
+                    __self: this
+                });
+            })
+        ]
+    }, void 0, true, {
+        fileName: "src/components/ProductList.jsx",
+        lineNumber: 6,
+        columnNumber: 5
+    }, this);
+}
+_c = ProductList;
+exports.default = ProductList;
+var _c;
+$RefreshReg$(_c, "ProductList");
+
+  $parcel$ReactRefreshHelpers$7fce.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../mockData/data":"cqXDw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./EditableProduct":"acROu"}],"cqXDw":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+exports.default = [
+    {
+        id: 1,
+        title: "Amazon Kindle E-reader",
+        quantity: 5,
+        price: 79.99
+    },
+    {
+        id: 2,
+        title: "Apple 10.5-Inch iPad Pro",
+        quantity: 0,
+        price: 649.99
+    },
+    {
+        id: 3,
+        title: "Yamaha Portable Keyboard",
+        quantity: 2,
+        price: 155.99
+    },
+    {
+        id: 4,
+        title: "Tinker, Tailor, Soldier, Spy - A John le Carre Novel",
+        quantity: 12,
+        price: 13.74
+    }
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"km3Ru":[function(require,module,exports) {
+"use strict";
+var Refresh = require("dc3a700388f426a2");
+function debounce(func, delay) {
+    {
+        let timeout = undefined;
+        let lastTime = 0;
+        return function(args) {
+            // Call immediately if last call was more than the delay ago.
+            // Otherwise, set a timeout. This means the first call is fast
+            // (for the common case of a single update), and subsequent updates
+            // are batched.
+            let now = Date.now();
+            if (now - lastTime > delay) {
+                lastTime = now;
+                func.call(null, args);
+            } else {
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    timeout = undefined;
+                    lastTime = Date.now();
+                    func.call(null, args);
+                }, delay);
+            }
+        };
+    }
+}
+var enqueueUpdate = debounce(function() {
+    Refresh.performReactRefresh();
+}, 30); // Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function(module1) {
+    window.$RefreshReg$ = function(type, id) {
+        Refresh.register(type, module1.id + " " + id);
+    };
+    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function(module1) {
+    if (isReactRefreshBoundary(module1.exports)) {
+        registerExportsForReactRefresh(module1);
+        if (module1.hot) {
+            module1.hot.dispose(function(data) {
+                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
+                data.prevExports = module1.exports;
+            });
+            module1.hot.accept(function(getParents) {
+                var prevExports = module1.hot.data.prevExports;
+                var nextExports = module1.exports; // Since we just executed the code for it, it's possible
+                // that the new exports make it ineligible for being a boundary.
+                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports); // It can also become ineligible if its exports are incompatible
+                // with the previous exports.
+                // For example, if you add/remove/change exports, we'll want
+                // to re-execute the importing modules, and force those components
+                // to re-render. Similarly, if you convert a class component
+                // to a function, we want to invalidate the boundary.
+                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+                if (isNoLongerABoundary || didInvalidate) {
+                    // We'll be conservative. The only case in which we won't do a full
+                    // reload is if all parent modules are also refresh boundaries.
+                    // In that case we'll add them to the current queue.
+                    var parents = getParents();
+                    if (parents.length === 0) {
+                        // Looks like we bubbled to the root. Can't recover from that.
+                        window.location.reload();
+                        return;
+                    }
+                    return parents;
+                }
+                enqueueUpdate();
+            });
+        }
+    }
+};
+function isReactRefreshBoundary(exports) {
+    if (Refresh.isLikelyComponentType(exports)) return true;
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    return false;
+    var hasExports = false;
+    var areAllExportsComponents = true;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        hasExports = true;
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
+        return false;
+        var exportValue = exports[key];
+        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
+    }
+    return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+    var prevSignature = getRefreshBoundarySignature(prevExports);
+    var nextSignature = getRefreshBoundarySignature(nextExports);
+    if (prevSignature.length !== nextSignature.length) return true;
+    for(var i = 0; i < nextSignature.length; i++){
+        if (prevSignature[i] !== nextSignature[i]) return true;
+    }
+    return false;
+} // When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+    var signature = [];
+    signature.push(Refresh.getFamilyByType(exports));
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        signature.push(key);
+        signature.push(Refresh.getFamilyByType(exportValue));
+    }
+    return signature;
+}
+function registerExportsForReactRefresh(module1) {
+    var exports = module1.exports, id = module1.id;
+    Refresh.register(exports, id + " %exports%");
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        Refresh.register(exportValue, id + " %exports% " + key);
+    }
+}
+
+},{"dc3a700388f426a2":"786KC"}],"acROu":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$5a48 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$5a48.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+var _product = require("./Product");
+var _productDefault = parcelHelpers.interopDefault(_product);
+var _editForm = require("./EditForm");
+var _editFormDefault = parcelHelpers.interopDefault(_editForm);
+var _s = $RefreshSig$();
+function EditableProduct({ title , quantity , price , _id , onDelete , onEdit , disabled , onUpdateCart  }) {
+    _s();
+    const [editVisible, seteditVisible] = (0, _react.useState)(false);
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "product",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _productDefault.default), {
+                title: title,
+                quantity: quantity,
+                price: price,
+                onDelete: onDelete,
+                onVisible: seteditVisible,
+                onUpdateCart: onUpdateCart,
+                disabled: disabled,
+                _id: _id
+            }, void 0, false, {
+                fileName: "src/components/EditableProduct.jsx",
+                lineNumber: 19,
+                columnNumber: 7
+            }, this),
+            editVisible ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _editFormDefault.default), {
+                title: title,
+                id: _id,
+                price: price,
+                quantity: quantity,
+                onVisible: seteditVisible,
+                onEdit: onEdit
+            }, void 0, false, {
+                fileName: "src/components/EditableProduct.jsx",
+                lineNumber: 30,
+                columnNumber: 9
+            }, this) : null
+        ]
+    }, void 0, true, {
+        fileName: "src/components/EditableProduct.jsx",
+        lineNumber: 18,
+        columnNumber: 5
+    }, this);
+}
+_s(EditableProduct, "5/WBS69hjHC9LRSQRi8Y5Bnan1w=");
+_c = EditableProduct;
+exports.default = EditableProduct;
+var _c;
+$RefreshReg$(_c, "EditableProduct");
+
+  $parcel$ReactRefreshHelpers$5a48.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Product":"ke9yL","./EditForm":"LYl5G","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ke9yL":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$704e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$704e.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+function Product({ title , quantity , price , _id , onDelete , onVisible , disabled , onUpdateCart ={
+    onUpdateCart
+}  }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "product-details",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: title
+            }, void 0, false, {
+                fileName: "src/components/Product.jsx",
+                lineNumber: 15,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: "price",
+                children: [
+                    `$${price}`,
+                    " "
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Product.jsx",
+                lineNumber: 16,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                className: `quantity ${disabled ? "none-left" : ""}`,
+                children: [
+                    `${quantity} left in stock`,
+                    " "
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Product.jsx",
+                lineNumber: 17,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "actions product-actions",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        className: `button add-to-cart ${disabled ? "disabled" : ""}`,
+                        onClick: ()=>{
+                            if (!disabled) onUpdateCart({
+                                _id,
+                                title,
+                                price,
+                                quantity
+                            });
+                        },
+                        children: "Add to Cart"
+                    }, void 0, false, {
+                        fileName: "src/components/Product.jsx",
+                        lineNumber: 21,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                        className: "button edit",
+                        onClick: ()=>onVisible(true),
+                        children: "Edit"
+                    }, void 0, false, {
+                        fileName: "src/components/Product.jsx",
+                        lineNumber: 31,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Product.jsx",
+                lineNumber: 20,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                className: "delete-button",
+                onClick: ()=>onDelete(_id),
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
+                    children: "X"
+                }, void 0, false, {
+                    fileName: "src/components/Product.jsx",
+                    lineNumber: 36,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/Product.jsx",
+                lineNumber: 35,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Product.jsx",
+        lineNumber: 14,
+        columnNumber: 5
+    }, this);
+}
+_c = Product;
+exports.default = Product;
+var _c;
+$RefreshReg$(_c, "Product");
+
+  $parcel$ReactRefreshHelpers$704e.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"LYl5G":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$dbdf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$dbdf.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _s = $RefreshSig$();
+function EditForm({ title , id , price , quantity , onVisible , onEdit  }) {
+    _s();
+    const [newName, setnewName] = (0, _react.useState)(title);
+    const [newQuantity, setnewQuantity] = (0, _react.useState)(quantity);
+    const [newPrice, setnewPrice] = (0, _react.useState)(price);
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+        onEdit({
+            _id: id,
+            title: newName,
+            price: newPrice,
+            quantity: newQuantity
+        }, ()=>onVisible(false));
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "edit-form",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: "Edit product"
+            }, void 0, false, {
+                fileName: "src/components/EditForm.jsx",
+                lineNumber: 23,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "input-group",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "product-name",
+                                children: "Product Name"
+                            }, void 0, false, {
+                                fileName: "src/components/EditForm.jsx",
+                                lineNumber: 26,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                id: "product-name",
+                                value: newName,
+                                onChange: (e)=>{
+                                    setnewName(e.target.value);
+                                }
+                            }, void 0, false, {
+                                fileName: "src/components/EditForm.jsx",
+                                lineNumber: 27,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/EditForm.jsx",
+                        lineNumber: 25,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "input-group",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "product-price",
+                                children: "Product Price"
+                            }, void 0, false, {
+                                fileName: "src/components/EditForm.jsx",
+                                lineNumber: 37,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                id: "product-price",
+                                value: newPrice,
+                                onChange: (e)=>{
+                                    setnewPrice(e.target.value);
+                                // TK when price changes, loop through the cart, find the ID, and replace the price
+                                }
+                            }, void 0, false, {
+                                fileName: "src/components/EditForm.jsx",
+                                lineNumber: 38,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/EditForm.jsx",
+                        lineNumber: 36,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "input-group",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "product-quantity",
+                                children: "Quantity"
+                            }, void 0, false, {
+                                fileName: "src/components/EditForm.jsx",
+                                lineNumber: 49,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                id: "product-quantity",
+                                value: newQuantity,
+                                onChange: (e)=>{
+                                    setnewQuantity(e.target.value);
+                                }
+                            }, void 0, false, {
+                                fileName: "src/components/EditForm.jsx",
+                                lineNumber: 50,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/EditForm.jsx",
+                        lineNumber: 48,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "actions form-actions",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                className: "button",
+                                onClick: handleSubmit,
+                                children: "Update"
+                            }, void 0, false, {
+                                fileName: "src/components/EditForm.jsx",
+                                lineNumber: 60,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                class: "button",
+                                onClick: ()=>onVisible(false),
+                                children: "Cancel"
+                            }, void 0, false, {
+                                fileName: "src/components/EditForm.jsx",
+                                lineNumber: 63,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/EditForm.jsx",
+                        lineNumber: 59,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/EditForm.jsx",
+                lineNumber: 24,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/EditForm.jsx",
+        lineNumber: 22,
+        columnNumber: 5
+    }, this);
+}
+_s(EditForm, "ZviUCkHfKv4jAIbH9DB3zYLGXmk=");
+_c = EditForm;
+exports.default = EditForm;
+var _c;
+$RefreshReg$(_c, "EditForm");
+
+  $parcel$ReactRefreshHelpers$dbdf.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq"}],"ep7Rn":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$3d43 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$3d43.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _s = $RefreshSig$();
+function Form({ onSubmit  }) {
+    _s();
+    const [isVisible, setisVisible] = (0, _react.useState)(false);
+    const [name, setName] = (0, _react.useState)("");
+    const [quantity, setQuantity] = (0, _react.useState)("");
+    const [price, setPrice] = (0, _react.useState)("");
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+        onSubmit({
+            title: name,
+            quantity,
+            price
+        }, resetInputs);
+    };
+    const resetInputs = ()=>{
+        console.log("testing callback");
+        setName("");
+        setPrice("");
+        setQuantity("");
+    };
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "add-form",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                    className: "button add-product-button",
+                    onClick: ()=>setisVisible(true),
+                    children: "Add a Product"
+                }, void 0, false, {
+                    fileName: "src/components/Form.jsx",
+                    lineNumber: 31,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "src/components/Form.jsx",
+                lineNumber: 30,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: "Add a product"
+            }, void 0, false, {
+                fileName: "src/components/Form.jsx",
+                lineNumber: 38,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
+                style: {
+                    display: `${isVisible ? "block" : "hidden"}`
+                },
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "input-group",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "product-name",
+                                children: "Product Name"
+                            }, void 0, false, {
+                                fileName: "src/components/Form.jsx",
+                                lineNumber: 41,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                id: "product-name",
+                                value: name,
+                                onChange: (e)=>{
+                                    setName(e.target.value);
+                                }
+                            }, void 0, false, {
+                                fileName: "src/components/Form.jsx",
+                                lineNumber: 42,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Form.jsx",
+                        lineNumber: 40,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "input-group",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "product-price",
+                                children: "Product Price"
+                            }, void 0, false, {
+                                fileName: "src/components/Form.jsx",
+                                lineNumber: 52,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                id: "product-price",
+                                value: price,
+                                onChange: (e)=>{
+                                    setPrice(e.target.value);
+                                }
+                            }, void 0, false, {
+                                fileName: "src/components/Form.jsx",
+                                lineNumber: 53,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Form.jsx",
+                        lineNumber: 51,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "input-group",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
+                                htmlFor: "product-quantity",
+                                children: "Quantity"
+                            }, void 0, false, {
+                                fileName: "src/components/Form.jsx",
+                                lineNumber: 63,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                                type: "text",
+                                id: "product-quantity",
+                                value: quantity,
+                                onChange: (e)=>{
+                                    setQuantity(e.target.value);
+                                }
+                            }, void 0, false, {
+                                fileName: "src/components/Form.jsx",
+                                lineNumber: 64,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Form.jsx",
+                        lineNumber: 62,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "actions form-actions",
+                        children: [
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                className: "button",
+                                onClick: handleSubmit,
+                                children: "add"
+                            }, void 0, false, {
+                                fileName: "src/components/Form.jsx",
+                                lineNumber: 74,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                className: "button",
+                                children: "cancel"
+                            }, void 0, false, {
+                                fileName: "src/components/Form.jsx",
+                                lineNumber: 77,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "src/components/Form.jsx",
+                        lineNumber: 73,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Form.jsx",
+                lineNumber: 39,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Form.jsx",
+        lineNumber: 29,
+        columnNumber: 5
+    }, this);
+}
+_s(Form, "fYbUkr1KU3Sg+vBMKCSxiJc6+dI=");
+_c = Form;
+exports.default = Form;
+var _c;
+$RefreshReg$(_c, "Form");
+
+  $parcel$ReactRefreshHelpers$3d43.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hGzN2":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "getProducts", ()=>getProducts);
+parcelHelpers.export(exports, "addProduct", ()=>addProduct);
+parcelHelpers.export(exports, "deleteProduct", ()=>deleteProduct);
+parcelHelpers.export(exports, "editProduct", ()=>editProduct);
+var _axios = require("axios");
+var _axiosDefault = parcelHelpers.interopDefault(_axios);
+var _routes = require("../constants/routes");
+// Get all products
+const getProducts = async ()=>{
+    const response = await (0, _axiosDefault.default).get((0, _routes.PRODUCTS));
+    return response.data;
+};
+// Add one product
+const addProduct = async (product)=>{
+    const response = await (0, _axiosDefault.default).post((0, _routes.PRODUCTS), {
+        ...product
+    });
+    return response;
+};
+// Delete a product
+const deleteProduct = async (id)=>{
+    await (0, _axiosDefault.default).delete((0, _routes.removeEditProduct)(id));
+    return id;
+};
+const editProduct = async (product)=>{
+    const response = await (0, _axiosDefault.default).put((0, _routes.removeEditProduct)(product._id), {
+        ...product
+    });
+    return response;
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","axios":"jo6P5","../constants/routes":"lBb9s"}],"jo6P5":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>(0, _axiosJsDefault.default));
@@ -28018,37 +28916,7 @@ function bind(fn, thisArg) {
 }
 exports.default = bind;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"cpqD8":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cpqD8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _utilsJs = require("./../utils.js");
@@ -28316,7 +29184,7 @@ var _axiosErrorJsDefault = parcelHelpers.interopDefault(_axiosErrorJs);
 // temporary hotfix to avoid circular references until AxiosURLSearchParams is refactored
 var _formDataJs = require("../platform/node/classes/FormData.js");
 var _formDataJsDefault = parcelHelpers.interopDefault(_formDataJs);
-var Buffer = require("421c33bf6b0751d2").Buffer;
+var Buffer = require("dea41dbef5df4b05").Buffer;
 "use strict";
 /**
  * Determines if the given thing is a array or js object.
@@ -28471,15 +29339,15 @@ const predicates = (0, _utilsJsDefault.default).toFlatObject((0, _utilsJsDefault
 }
 exports.default = toFormData;
 
-},{"421c33bf6b0751d2":"fCgem","../utils.js":"5By4s","../core/AxiosError.js":"3u8Tl","../platform/node/classes/FormData.js":"aFlee","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fCgem":[function(require,module,exports) {
+},{"dea41dbef5df4b05":"fCgem","../utils.js":"5By4s","../core/AxiosError.js":"3u8Tl","../platform/node/classes/FormData.js":"aFlee","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fCgem":[function(require,module,exports) {
 /*!
  * The buffer module from node.js, for the browser.
  *
  * @author   Feross Aboukhadijeh <https://feross.org>
  * @license  MIT
  */ /* eslint-disable no-proto */ "use strict";
-var base64 = require("9d5d1f17ed81f403");
-var ieee754 = require("bc9893b108a3e056");
+var base64 = require("e83b53bab96098d1");
+var ieee754 = require("9d10c8021e36addf");
 var customInspectSymbol = typeof Symbol === "function" && typeof Symbol["for"] === "function" // eslint-disable-line dot-notation
  ? Symbol["for"]("nodejs.util.inspect.custom") // eslint-disable-line dot-notation
  : null;
@@ -29701,7 +30569,7 @@ var hexSliceLookupTable = function() {
     return table;
 }();
 
-},{"9d5d1f17ed81f403":"eIiSV","bc9893b108a3e056":"cO95r"}],"eIiSV":[function(require,module,exports) {
+},{"e83b53bab96098d1":"eIiSV","9d10c8021e36addf":"cO95r"}],"eIiSV":[function(require,module,exports) {
 "use strict";
 exports.byteLength = byteLength;
 exports.toByteArray = toByteArray;
@@ -31485,23 +32353,33 @@ Object.entries(HttpStatusCode).forEach(([key, value])=>{
 });
 exports.default = HttpStatusCode;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"knC38":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$e807 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lBb9s":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "PRODUCTS", ()=>PRODUCTS);
+parcelHelpers.export(exports, "removeEditProduct", ()=>removeEditProduct);
+const PRODUCTS = "/api/products";
+const removeEditProduct = (id)=>{
+    return PRODUCTS + "/" + id;
+};
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8DpxB":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$66d9 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$e807.prelude(module);
+$parcel$ReactRefreshHelpers$66d9.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-function Header() {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
+function Cart({ cart  }) {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                 children: "The Shop!"
             }, void 0, false, {
-                fileName: "src/components/Header.jsx",
+                fileName: "src/components/Cart.jsx",
                 lineNumber: 4,
                 columnNumber: 7
             }, this),
@@ -31511,47 +32389,116 @@ function Header() {
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
                         children: "Your Cart"
                     }, void 0, false, {
-                        fileName: "src/components/Header.jsx",
+                        fileName: "src/components/Cart.jsx",
                         lineNumber: 6,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "Your cart is empty"
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                        className: "cart-items",
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                            children: "Item"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Cart.jsx",
+                                            lineNumber: 10,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                            children: "Quantity"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Cart.jsx",
+                                            lineNumber: 11,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                            children: "Price"
+                                        }, void 0, false, {
+                                            fileName: "src/components/Cart.jsx",
+                                            lineNumber: 12,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "src/components/Cart.jsx",
+                                    lineNumber: 9,
+                                    columnNumber: 13
+                                }, this),
+                                cart.map((item)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                        children: [
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                children: item.title
+                                            }, void 0, false, {
+                                                fileName: "src/components/Cart.jsx",
+                                                lineNumber: 16,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                children: item.quantity
+                                            }, void 0, false, {
+                                                fileName: "src/components/Cart.jsx",
+                                                lineNumber: 17,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                                children: item.price
+                                            }, void 0, false, {
+                                                fileName: "src/components/Cart.jsx",
+                                                lineNumber: 18,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "src/components/Cart.jsx",
+                                        lineNumber: 15,
+                                        columnNumber: 15
+                                    }, this)),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                        colspan: "3",
+                                        class: "total"
+                                    }, void 0, false, {
+                                        fileName: "src/components/Cart.jsx",
+                                        lineNumber: 22,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "src/components/Cart.jsx",
+                                    lineNumber: 21,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/Cart.jsx",
+                            lineNumber: 8,
+                            columnNumber: 11
+                        }, this)
                     }, void 0, false, {
-                        fileName: "src/components/Header.jsx",
+                        fileName: "src/components/Cart.jsx",
                         lineNumber: 7,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                        children: "Total: $0"
-                    }, void 0, false, {
-                        fileName: "src/components/Header.jsx",
-                        lineNumber: 8,
-                        columnNumber: 9
-                    }, this),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                        className: "button checkout disabled",
+                        class: "button checkout",
                         children: "Checkout"
                     }, void 0, false, {
-                        fileName: "src/components/Header.jsx",
-                        lineNumber: 9,
+                        fileName: "src/components/Cart.jsx",
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "src/components/Header.jsx",
+                fileName: "src/components/Cart.jsx",
                 lineNumber: 5,
                 columnNumber: 7
             }, this)
         ]
-    }, void 0, true, {
-        fileName: "src/components/Header.jsx",
-        lineNumber: 3,
-        columnNumber: 5
-    }, this);
+    }, void 0, true);
 }
-_c = Header;
-exports.default = Header; //   return e("div", { className: "app" }, [
+_c = Cart;
+exports.default = Cart; //   return e("div", { className: "app" }, [
  //     e("header", null, [
  //       e("h1", null, "The Shop!"),
  //       e("div", { className: "cart" }, [
@@ -31562,537 +32509,13 @@ exports.default = Header; //   return e("div", { className: "app" }, [
  //       ]),
  //     ]),
 var _c;
-$RefreshReg$(_c, "Header");
+$RefreshReg$(_c, "Cart");
 
-  $parcel$ReactRefreshHelpers$e807.postlude(module);
+  $parcel$ReactRefreshHelpers$66d9.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"km3Ru":[function(require,module,exports) {
-"use strict";
-var Refresh = require("b737edcacb69caa1");
-function debounce(func, delay) {
-    {
-        let timeout = undefined;
-        let lastTime = 0;
-        return function(args) {
-            // Call immediately if last call was more than the delay ago.
-            // Otherwise, set a timeout. This means the first call is fast
-            // (for the common case of a single update), and subsequent updates
-            // are batched.
-            let now = Date.now();
-            if (now - lastTime > delay) {
-                lastTime = now;
-                func.call(null, args);
-            } else {
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    timeout = undefined;
-                    lastTime = Date.now();
-                    func.call(null, args);
-                }, delay);
-            }
-        };
-    }
-}
-var enqueueUpdate = debounce(function() {
-    Refresh.performReactRefresh();
-}, 30); // Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function(module1) {
-    window.$RefreshReg$ = function(type, id) {
-        Refresh.register(type, module1.id + " " + id);
-    };
-    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function(module1) {
-    if (isReactRefreshBoundary(module1.exports)) {
-        registerExportsForReactRefresh(module1);
-        if (module1.hot) {
-            module1.hot.dispose(function(data) {
-                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
-                data.prevExports = module1.exports;
-            });
-            module1.hot.accept(function(getParents) {
-                var prevExports = module1.hot.data.prevExports;
-                var nextExports = module1.exports; // Since we just executed the code for it, it's possible
-                // that the new exports make it ineligible for being a boundary.
-                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports); // It can also become ineligible if its exports are incompatible
-                // with the previous exports.
-                // For example, if you add/remove/change exports, we'll want
-                // to re-execute the importing modules, and force those components
-                // to re-render. Similarly, if you convert a class component
-                // to a function, we want to invalidate the boundary.
-                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-                if (isNoLongerABoundary || didInvalidate) {
-                    // We'll be conservative. The only case in which we won't do a full
-                    // reload is if all parent modules are also refresh boundaries.
-                    // In that case we'll add them to the current queue.
-                    var parents = getParents();
-                    if (parents.length === 0) {
-                        // Looks like we bubbled to the root. Can't recover from that.
-                        window.location.reload();
-                        return;
-                    }
-                    return parents;
-                }
-                enqueueUpdate();
-            });
-        }
-    }
-};
-function isReactRefreshBoundary(exports) {
-    if (Refresh.isLikelyComponentType(exports)) return true;
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    return false;
-    var hasExports = false;
-    var areAllExportsComponents = true;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        hasExports = true;
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
-        return false;
-        var exportValue = exports[key];
-        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
-    }
-    return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-    var prevSignature = getRefreshBoundarySignature(prevExports);
-    var nextSignature = getRefreshBoundarySignature(nextExports);
-    if (prevSignature.length !== nextSignature.length) return true;
-    for(var i = 0; i < nextSignature.length; i++){
-        if (prevSignature[i] !== nextSignature[i]) return true;
-    }
-    return false;
-} // When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-    var signature = [];
-    signature.push(Refresh.getFamilyByType(exports));
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        signature.push(key);
-        signature.push(Refresh.getFamilyByType(exportValue));
-    }
-    return signature;
-}
-function registerExportsForReactRefresh(module1) {
-    var exports = module1.exports, id = module1.id;
-    Refresh.register(exports, id + " %exports%");
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        Refresh.register(exportValue, id + " %exports% " + key);
-    }
-}
-
-},{"b737edcacb69caa1":"786KC"}],"6IsM9":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$7fce = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$7fce.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _data = require("../mockData/data");
-var _dataDefault = parcelHelpers.interopDefault(_data);
-var _product = require("./Product");
-var _productDefault = parcelHelpers.interopDefault(_product);
-function ProductList({ products , onDelete  }) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "product-listing",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
-                children: "Products"
-            }, void 0, false, {
-                fileName: "src/components/ProductList.jsx",
-                lineNumber: 7,
-                columnNumber: 7
-            }, this),
-            products.map((product)=>/*#__PURE__*/ (0, _react.createElement)((0, _productDefault.default), {
-                    ...product,
-                    key: product._id,
-                    onDelete: onDelete,
-                    __source: {
-                        fileName: "src/components/ProductList.jsx",
-                        lineNumber: 9,
-                        columnNumber: 9
-                    },
-                    __self: this
-                }))
-        ]
-    }, void 0, true, {
-        fileName: "src/components/ProductList.jsx",
-        lineNumber: 6,
-        columnNumber: 5
-    }, this);
-}
-_c = ProductList;
-exports.default = ProductList;
-var _c;
-$RefreshReg$(_c, "ProductList");
-
-  $parcel$ReactRefreshHelpers$7fce.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../mockData/data":"cqXDw","./Product":"ke9yL","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"cqXDw":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-exports.default = [
-    {
-        id: 1,
-        title: "Amazon Kindle E-reader",
-        quantity: 5,
-        price: 79.99
-    },
-    {
-        id: 2,
-        title: "Apple 10.5-Inch iPad Pro",
-        quantity: 0,
-        price: 649.99
-    },
-    {
-        id: 3,
-        title: "Yamaha Portable Keyboard",
-        quantity: 2,
-        price: 155.99
-    },
-    {
-        id: 4,
-        title: "Tinker, Tailor, Soldier, Spy - A John le Carre Novel",
-        quantity: 12,
-        price: 13.74
-    }
-];
-
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ke9yL":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$704e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$704e.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _reactDefault = parcelHelpers.interopDefault(_react);
-function Product({ title , quantity , price , _id , onDelete  }) {
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "product",
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-            className: "product-details",
-            children: [
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                    children: title
-                }, void 0, false, {
-                    fileName: "src/components/Product.jsx",
-                    lineNumber: 7,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "price",
-                    children: [
-                        `$${price}`,
-                        " "
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Product.jsx",
-                    lineNumber: 8,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                    className: "quantity",
-                    children: [
-                        `${quantity} left in stock`,
-                        " "
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Product.jsx",
-                    lineNumber: 9,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                    className: "actions product-actions",
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            className: `button add-to-cart`,
-                            children: "Add to Cart"
-                        }, void 0, false, {
-                            fileName: "src/components/Product.jsx",
-                            lineNumber: 11,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                            className: "button edit",
-                            children: "Edit"
-                        }, void 0, false, {
-                            fileName: "src/components/Product.jsx",
-                            lineNumber: 12,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/Product.jsx",
-                    lineNumber: 10,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    className: "delete-button",
-                    onClick: ()=>onDelete(_id),
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
-                        children: "X"
-                    }, void 0, false, {
-                        fileName: "src/components/Product.jsx",
-                        lineNumber: 15,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "src/components/Product.jsx",
-                    lineNumber: 14,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "src/components/Product.jsx",
-            lineNumber: 6,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "src/components/Product.jsx",
-        lineNumber: 5,
-        columnNumber: 5
-    }, this);
-}
-_c = Product;
-exports.default = Product;
-var _c;
-$RefreshReg$(_c, "Product");
-
-  $parcel$ReactRefreshHelpers$704e.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"ep7Rn":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$3d43 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$3d43.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _react = require("react");
-var _s = $RefreshSig$();
-function Form({ onSubmit  }) {
-    _s();
-    const [isVisible, setisVisible] = (0, _react.useState)(false);
-    const [name, setName] = (0, _react.useState)("");
-    const [quantity, setQuantity] = (0, _react.useState)(0);
-    const [price, setPrice] = (0, _react.useState)(0);
-    const handleSubmit = (e)=>{
-        e.preventDefault();
-        onSubmit({
-            title: name,
-            quantity,
-            price
-        }, resetInputs);
-    };
-    const resetInputs = ()=>{
-        setName("");
-        setPrice(0);
-        setQuantity(0);
-    };
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "add-form",
-        children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                    className: "button add-product-button",
-                    onClick: ()=>setisVisible(true),
-                    children: "Add a Product"
-                }, void 0, false, {
-                    fileName: "src/components/Form.jsx",
-                    lineNumber: 27,
-                    columnNumber: 9
-                }, this)
-            }, void 0, false, {
-                fileName: "src/components/Form.jsx",
-                lineNumber: 26,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                children: "Add a product"
-            }, void 0, false, {
-                fileName: "src/components/Form.jsx",
-                lineNumber: 34,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
-                style: {
-                    display: `${isVisible ? "block" : "hidden"}`
-                },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "input-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                for: "product-name",
-                                children: "Product Name"
-                            }, void 0, false, {
-                                fileName: "src/components/Form.jsx",
-                                lineNumber: 37,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                type: "text",
-                                id: "product-name",
-                                value: name,
-                                onChange: (e)=>{
-                                    setName(e.target.value);
-                                }
-                            }, void 0, false, {
-                                fileName: "src/components/Form.jsx",
-                                lineNumber: 38,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/Form.jsx",
-                        lineNumber: 36,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "input-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                for: "product-price",
-                                children: "Product Price"
-                            }, void 0, false, {
-                                fileName: "src/components/Form.jsx",
-                                lineNumber: 41,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                type: "text",
-                                id: "product-price",
-                                value: price,
-                                onChange: (e)=>{
-                                    setPrice(e.target.value);
-                                }
-                            }, void 0, false, {
-                                fileName: "src/components/Form.jsx",
-                                lineNumber: 42,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/Form.jsx",
-                        lineNumber: 40,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "input-group",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                for: "product-quantity",
-                                children: "Quantity"
-                            }, void 0, false, {
-                                fileName: "src/components/Form.jsx",
-                                lineNumber: 45,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
-                                type: "text",
-                                id: "product-quantity",
-                                value: quantity,
-                                onChange: (e)=>{
-                                    setQuantity(e.target.value);
-                                }
-                            }, void 0, false, {
-                                fileName: "src/components/Form.jsx",
-                                lineNumber: 46,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/Form.jsx",
-                        lineNumber: 44,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "actions form-actions",
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                className: "button",
-                                onClick: handleSubmit,
-                                children: "add"
-                            }, void 0, false, {
-                                fileName: "src/components/Form.jsx",
-                                lineNumber: 49,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                className: "button",
-                                children: "cancel"
-                            }, void 0, false, {
-                                fileName: "src/components/Form.jsx",
-                                lineNumber: 50,
-                                columnNumber: 11
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/Form.jsx",
-                        lineNumber: 48,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "src/components/Form.jsx",
-                lineNumber: 35,
-                columnNumber: 7
-            }, this)
-        ]
-    }, void 0, true, {
-        fileName: "src/components/Form.jsx",
-        lineNumber: 25,
-        columnNumber: 5
-    }, this);
-}
-_s(Form, "8cTlT9nWx/a8JWPpwEbCc2efjaw=");
-_c = Form;
-exports.default = Form;
-var _c;
-$RefreshReg$(_c, "Form");
-
-  $parcel$ReactRefreshHelpers$3d43.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","jC2qd","8lqZg"], "8lqZg", "parcelRequiree8ef")
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["1xC6H","jC2qd","8lqZg"], "8lqZg", "parcelRequiree8ef")
 
 //# sourceMappingURL=index.975ef6c8.js.map
