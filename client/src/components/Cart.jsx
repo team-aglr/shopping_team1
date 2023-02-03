@@ -1,4 +1,4 @@
-function Cart({ cart }) {
+function Cart({ cart, onCheckout }) {
   return (
     <>
       <h1>The Shop!</h1>
@@ -12,20 +12,24 @@ function Cart({ cart }) {
               <th>Price</th>
             </tr>
             {cart.map((item) => (
-              <tr>
+              <tr key={item._id}>
                 <td>{item.title}</td>
                 <td>{item.quantity}</td>
-                <td>{item.price}</td>
+                <td>{`$${item.price}`}</td>
               </tr>
             ))}
             <tr>
               <td colspan="3" class="total">
-                {/* TK Finish total calculation */}
+                {`Total: $${cart.reduce((acc, curr) => {
+                  return acc + curr.quantity * curr.price;
+                }, 0)}`}
               </td>
             </tr>
           </tbody>
         </table>
-        <a class="button checkout">Checkout</a>
+        <a class="button checkout" onClick={onCheckout}>
+          Checkouts
+        </a>
       </div>
     </>
   );

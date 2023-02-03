@@ -87,10 +87,14 @@ const App = () => {
     setCart(newCarts);
   };
 
+  const handleCheckout = () => {
+    setCart([]);
+  };
+
   return (
     <div id="app">
       <header>
-        <Cart cart={cart} />
+        <Cart cart={cart} onCheckout={handleCheckout} />
       </header>
       <main>
         <ProductList
